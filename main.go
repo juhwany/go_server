@@ -1,4 +1,4 @@
-package main
+package main // import "github.com/juhwany/go_server"
 
 import (
 	"plugin"
@@ -6,10 +6,9 @@ import (
 	"github.com/juhwany/go_server/apis"
 )
 
-type BarImpl struct {
-}
+type BarImpl struct{}
 
-func (b *BarImpl) DoSomething {
+func (b *BarImpl) DoSomething() {
 	fmt.Printf("DoSomething called!\n")
 }
 
