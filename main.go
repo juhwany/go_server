@@ -3,7 +3,7 @@ package main // import "github.com/juhwany/go_server"
 import (
 	"plugin"
 	"fmt"
-	"github.com/juhwany/go_server/apis"
+	"github.com/juhwany/go_server/v2/apis"
 )
 
 type BarImpl struct{}
