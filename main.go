@@ -1,4 +1,4 @@
-package main // import "github.com/juhwany/go_server"
+package main // import "github.com/juhwany/go_server/v2"
 
 import (
 	"plugin"
